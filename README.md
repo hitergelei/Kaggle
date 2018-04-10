@@ -18,6 +18,20 @@ __TimeLine:__
 - May 7, 2018 - Final submission deadline.
 - All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
 
+__Evaluation__ 
+
+Submissions are evaluated on ```area under the ROC curve ```between the predicted probability and the observed target.
+
+__Submission File__ 
+For each ```click_id``` in the test set, you must predict a probability for the target ```is_attributed``` variable. The file should contain a header and have the following format:  
+```
+click_id,is_attributed
+1,0.003
+2,0.001
+3,0.000
+etc.
+```
+
 __地址：__ https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection#description
 
 ---
@@ -72,4 +86,4 @@ Id,SalePrice
 1463,175221
 etc.
 ```
-
+__地址：__ https://www.kaggle.com/c/house-prices-advanced-regression-techniques#description
