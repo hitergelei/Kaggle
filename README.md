@@ -46,6 +46,19 @@ In this competition, Kagglers are challenged to create a classification algorith
 
 With an improved prediction model in place, Red Hat will be able to more efficiently prioritize resources to generate more business and better serve their customers.
 
+__Evaluation__   
+Submissions are evaluated on ```area under the ROC curve``` between the predicted and the observed outcome.  
+__Submission File__ 
+For each ```activity_id``` in the test set, you must predict a probability for the ```outcome``` variable, represented by a number between 0 and 1. The file should contain a header and have the following format:  
+```
+activity_id,outcome
+act1_1,0
+act1_100006,0
+act1_100050,0
+etc.
+```
+
+
 __TimeLine:__ 
 - September 12, 2016 - First Submission deadline. A team must make at least one submission by this date in order to compete. 
 - September 12, 2016 - Team Merger deadline. This is the last day competitors may join or merge teams.
